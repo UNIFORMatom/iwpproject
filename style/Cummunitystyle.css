@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+}
+
+#header {
+    display: inline;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#logo {
+    display: inline;
+    padding: 10px auto 10px auto;
+    margin: 0px auto 30px auto;
+    max-width: 80px;
+    max-height: 100px;
+}
+
+#title {
+    display: inline;
+    padding: 10px auto 10px auto;
+    margin: 0px auto 30px auto;
+    max-width: 110px;
+    max-height: 100px;
+}
+
+a.square_btn:link {
+    text-decoration: none;
+    color: red;
+    margin-right: 70px;
+    transition: .5s;
+}
+
+a.square_btn:hover {
+    transition: .5s;
+    text-decoration-color: white;
+    color: white;
+}
+
+a.square_btn:visited{ color: red; }
+
+a:visited{ color: white; }
+
+#nav {
+    float: right;
+}
+
+#login-img {
+    border: solid 3px white;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 6px 6px 6px 6px;
+    width: 25px;
+    transition: .5s;
+}
+
+#login-img:hover {
+    transition: .5s;
+    background-color: red;
+    border-color: red;
+}
+
+#articles {
+    font-size: 12px;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+#art-img {
+    max-width: 600px;
+    max-height: 200px;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 600px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+td {
+    margin: 0px 20px 0px 20px;
+    padding: 10px 30px 20px 30px;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 8px;
+    transition: .5s;
+}
+
+td:hover {
+    margin: 0px 20px 0px 20px;
+    padding: 10px 30px 20px 30px;
+    border: 3px solid rgb(66, 66, 66);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px grey;
+    transition: .5s;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support page</title>
+    <link href="style/supportstyle.css" rel="stylesheet" type="text/css">        
+</head>
+<body>
+    <div id="header">
+        <img src="img/asus-republic-of-gamers-logo-8B94B18AD7-seeklogo.com.png" alt="rog logo" id="logo">
+        <img src="img/ROG_LOGO_GLOBAL-whit.png" alt="title" id="title1">
+        <div id="nav">
+            <a href="index.html" class="square_btn">HOME</a>
+            <a href="Community.html" class="square_btn">COMMUNITY</a>
+            <a href="https://rog.asus.com/laptops-group/" class="square_btn">PRODUCTS</a>
+            <a href="login.html" class="square_btn"><img id="login-img" src="img/icons8_account_2.ico"></a>
+        </div>
+    </div>
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">ROG tech support</h1>
+          <p id="description" class="description text-center">
+            HOW CAN WE HELP YOU?
+          </p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number"
+              >Age<span class="clue">(optional)</span></label
+            >
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"
+            />
+          </div>
+          <div class="form-group">
+            <p>SELECT THE CATEGORY</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>SELECT</option>
+              <option value="LAPTOP">LAPTOP</option>
+              <option value="ROG PHONE">ROG PHONE</option>
+              <option value="GPU">GPU</option>
+              <option value="MOTHERBOARD">MOTHERBOARD</option>
+              <option value="STRIX LINEUP">STRIX LINEUP</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <p>
+              What would you like to see improved?
+              <span class="clue">(Check all that apply)</span>
+            </p>
+      
+            <label><input name="prefer" value="BUILD QUIALITY" type="checkbox" class="input-checkbox"/>BUILD QUIALITY</label>
+            <label><input name="prefer" value="HEAT MANAGEMENT" type="checkbox" class="input-checkbox"  />HEAT MANAGEMENT</label>
+            <label><input name="prefer" value="DESIGN" type="checkbox" class="input-checkbox"/>DESIGN</label>
+            <label><input name="prefer" value="PERFORMANCE" type="checkbox" class="input-checkbox"/>PERFORMANCE</label>
+            <label><input name="prefer" value="PRICING" type="checkbox" class="input-checkbox" />PRICING</label>
+            <label><input name="prefer" value="AVAILABILITY" type="checkbox" class="input-checkbox"/> AVAILABILITY</label>
+          </div>
+      
+          <div class="form-group">
+            <p>EXPLAIN YOUR PROBLEM:</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here........"
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      
+</body>
+</html>
